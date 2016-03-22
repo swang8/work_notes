@@ -16,7 +16,8 @@ A key feature of the MinION device, the PromethION and the GridION system is tha
 ### Performance, [Assessing the performance of  the Xoford Nanopore Technologies MinION, March 2015](http://www.sciencedirect.com/science/article/pii/S2214753515000224)
 Great technology, but how is its performance in terms of accuracy?
 #### Abstract of the paper
-MinION was used to re-sequence three bacterial genomes. By comparing to MiSeq reads for the same genome, the estimated error rate is **38.2%**, Mean and median read lenghts were 2Kb and 1Kb. These are not exciting numbers at all.
+MinION was used to re-sequence three bacterial genomes. By comparing to MiSeq reads for the same genome, the estimated error rate is **38.2%**, Mean and median read lenghts were 2Kb and 1Kb. 
+These are not exciting numbers at all. I guess error correction would be necessary for these high error rate reads to be useful. Something similar to what people have been doing for PacBio long reads.
 #### Tools used in the paper
 1. Poretools, to convert sequencing data into fastq/a;
 2. LAST alignment tool, to align MinION reads to referece;
